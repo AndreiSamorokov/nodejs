@@ -1,3 +1,6 @@
 # nodejs Area
 
-## checking...
+## 
+
+### 1 CSV Read 
+    - used neat-csv package
