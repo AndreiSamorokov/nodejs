@@ -24,14 +24,14 @@ app.post('/sendmail', (req, res) => {
       var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'xxxx@gmail.com',
-          pass: ' '
+          user: 'uuuuu@gmail.com',
+          pass: 'pppp'
         }
       });
       
       var mailOptions = {
-        from: 'xxx@gmail.com',
-        to: 'yyy@yandex.com',
+        from: 'uuuuu@gmail.com',
+        to: 'fffff@yandex.com',
         subject: 'Sending Email using Node.js',
         text: fields.mail_content
       };
